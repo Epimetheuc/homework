@@ -3,55 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
-<link rel="stylesheet" href="./css/style.css">
+  <title>Bleach - Soul Society</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <header>
     <nav>
-      <a href="#home">Главная</a>
-      <a href="#about">О нас</a>
-      <a href="#services">Услуги</a>
-      <a href="#contact">Контакты</a>
+      <a href="#home">HOME</a>
+      <a href="#about">SOUL SOCIETY</a>
+      <a href="#services">ZANPAKUTO TRAINING</a>
+      <a href="#contact">JOIN THE BATTLE</a>
     </nav>
   </header>
 
   <section class="hero" id="home">
     <div>
-      <h1>Добро пожаловать на наш сайт!</h1>
-      <p>Мы предлагаем лучшие услуги для вас.</p>
+      <h1>Welcome to Soul Society!</h1>
+      <p>Join us to protect the Human World from threats beyond the Dark Realm.</p>
     </div>
   </section>
 
   <section class="about" id="about">
     <div class="about-text">
-      <h2>О нас</h2>
-      <p>Мы – компания, стремящаяся предоставлять качественные услуги и товары нашим клиентам.</p>
+      <h2>About Soul Society</h2>
+      <p>We are warriors committed to maintaining the balance between worlds. Trained at the Shinigami Academy, we are ready to face any threat.</p>
     </div>
-    <img src="./img/image 2.png" alt="О нас">
-    <img src="./img/image 3.png" alt="О нас">
+    <img src="./img/soulsociety.jpg" alt="Soul Society">
+    <img src="./img/ichigokurosaki.jpg" alt="Ichigo">
   </section>
 
   <section class="services" id="services">
-    <h2>Наши услуги</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Услуга 1</h3>
-        <p>Описание услуги 1.</p>
+    <div class="cont">
+      <h2>Zanpakuto Training</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Enhance Spiritual Power</h3>
+          <p>Learn to harness your Reiatsu to unleash the full potential of your Zanpakuto.</p>
+        </div>
+        <div class="card">
+          <h3>Shikai Mastery</h3>
+          <p>Unlock the first transformation of your Zanpakuto and become stronger.</p>
+        </div>
+        <div class="card">
+          <h3>Bankai Training</h3>
+          <p>Reveal the secrets of Bankai—the most powerful form of your Zanpakuto.</p>
+        </div>
       </div>
-      <div class="card">
-        <h3>Услуга 2</h3>
-        <p>Описание услуги 2.</p>
-      </div>
-      <div class="card">
-        <h3>Услуга 3</h3>
-        <p>Описание услуги 3.</p>
-      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-content">
+      <h2>Join the Battle</h2>
+      <p>Do you have what it takes to become one of us? Leave your details, and we’ll contact you for the entry trials.</p>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+      </form>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2024 My Website. Все права защищены.</p>
+    <p>&copy; 2024 Soul Society. Protecting the worlds of spirits and humans.</p>
   </footer>
 </body>
 </html>
